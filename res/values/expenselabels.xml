@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="expDate">Expense Date</string>
+    <string name="expDateSelect">SELECT</string>
+    <string name="expfrom">From</string>
+    <string name="expTo">To</string>
+    <string name="expMode">Mode</string>
+    <string name="expType">Type</string>
+    <string name="expTotalKm">Total KM</string>    
+    <string name="expTrAllow">Travel Allow.</string>
+    <string name="expToken">Token</string>
+    <string name="expAddBtn">Add</string>
+    <string name="expSaveBtn">Save</string>
+    <string name="expSubmitBtn">Submit</string>
+    <string name="expTotalExp">Total Exp.</string>    
+    <string name="expTotalDa">Daily Exp.</string>
+    <string name="expTotalOther">Other Exp.</string>
+    <string name="expComment">Comment</string>
+    <string name="expOtherName">Expense Type</string>
+    <string name="expOtherAmount">Expense Amount</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:gravity="center_vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="49px">
+    
+    <ImageView
+    	android:id="@+id/great_rep_titlebar_icon"
+    	android:scaleType="fitXY"
+    	android:layout_centerVertical="true"
+    	android:layout_alignParentLeft="true"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    />
+    
+    <ImageView
+    	android:id="@+id/great_rep_titlebar_notification"
+    	android:scaleType="fitXY"
+    	android:layout_toRightOf="@id/great_rep_titlebar_icon"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    />
+    
+    <ImageView
+    	android:id="@+id/great_rep_titlebar_greatrep"
+    	android:src="@drawable/grep_logo"
+    	android:layout_alignParentRight="true"
+    	android:layout_centerVertical="true"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    />
+    
+    <ImageView 
+    	android:id="@+id/great_rep_titlebar_zydus_right"
+    	android:layout_width="wrap_content"
+    	android:layout_toLeftOf="@id/great_rep_titlebar_greatrep"
+    	android:layout_height="fill_parent"
+    	android:layout_marginTop="1dp"
+    	android:layout_marginBottom="1dp"
+    	android:background="@drawable/verticalsep"
+    />
+    
+    <ImageView
+    	android:id="@+id/great_rep_titlebar_zydus"
+    	
+    	android:layout_centerVertical="true"
+    	android:layout_toLeftOf="@id/great_rep_titlebar_zydus_right"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    />
+    
+    <ImageView 
+    	android:id="@+id/great_rep_titlebar_zydus_left"
+    	android:layout_width="wrap_content"
+    	android:layout_height="fill_parent"
+    	android:layout_toLeftOf="@id/great_rep_titlebar_zydus"
+    	android:layout_marginTop="1dp"
+    	android:layout_marginBottom="1dp"
+    	android:background="@drawable/verticalsep"
+    />
+    
+    <ImageView android:layout_width="fill_parent"
+    	android:layout_height="5dp"
+    	android:background="@drawable/horizontal_sep"
+    	android:layout_alignParentBottom="true"
+    />
+</RelativeLayout>

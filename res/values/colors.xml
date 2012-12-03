@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_text">#7e7e7e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="Gray">#7e7e7e</color>
+  <color name="Red">#990000</color>
+     <color name="activity_planner_table_background">#d8d8d8</color>
+    <color name="activity_planner_background">#e8e8e8</color>
+     <color name="text_color_4f4f4f">#4f4f4f</color>
+     <color name="row_color_b5b5b5">#b5b5b5</color>
+      <color name="row_color_e9e9e9">#e9e9e9</color>
+       <color name="panel_color_e9e9e9">#c2c2c2</color>
+    <color name="LightGray1">#A9A9A9</color>
+</resources>

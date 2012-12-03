@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_cofirm"
+    android:layout_width="400dip"
+    android:layout_height="150dip"
+    android:background="@drawable/databank_rounded_bg" >
+
+    <TextView
+        android:id="@+id/settext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Do You Want To Reject Another Record"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/dialogbuttonyes"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="58dp"
+        android:text="YES" />
+
+    <Button
+        android:id="@+id/dialogbuttonno"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="37dp"
+        android:layout_toRightOf="@+id/dialogbuttonyes"
+        android:text="NO" />
+
+</RelativeLayout>

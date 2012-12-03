@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:weightSum="6" >
+
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/txttarvelAllow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_margin="5dip"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/txtdaAllow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_margin="5dip"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/txtotherAllow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_margin="5dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txttotalAllow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_margin="5dip"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/chkdata_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"                
+                android:layout_weight="1" />
+        </LinearLayout>
+
+</LinearLayout>

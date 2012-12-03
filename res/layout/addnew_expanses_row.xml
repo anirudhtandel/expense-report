@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newrow"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     android:background="@drawable/greytablecell"
+      android:padding="0dp"
+    android:weightSum="8">
+
+
+    <Spinner
+        android:id="@+id/txtfrom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dropDownWidth="300dip"
+        android:layout_weight="1"
+        android:hint="from"        
+        android:textSize="12sp" 
+        android:nextFocusDown="@+id/txtto"/>
+
+    <Spinner
+        android:id="@+id/txtto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dropDownWidth="300dip"
+        android:layout_weight="1"
+        android:hint="To"
+        android:textSize="12sp" 
+        
+        android:nextFocusDown="@+id/spnmode"/>
+
+    <Spinner
+        android:id="@+id/spnmode"        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:nextFocusDown="@+id/spntype" 
+        />
+    
+    <Spinner
+        android:id="@+id/spntype"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp" 
+        android:nextFocusDown="@+id/txttotalkm"/>
+
+    <EditText
+        android:id="@+id/txttotalkm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="i.e 20"
+        android:textSize="16sp"
+        android:inputType="number" 
+        android:nextFocusDown="@+id/txttravelallow"/>
+
+    <EditText
+        android:id="@+id/txttravelallow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:enabled="false"
+        android:textSize="16sp"/>
+    
+    <EditText
+        android:id="@+id/txttoken"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:enabled="false"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/chkrowadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="right" />
+</LinearLayout>
